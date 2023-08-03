@@ -2,8 +2,7 @@ let cards = document.querySelector(".cards");
 let div = document.querySelector("div");
 let form = document.querySelector(".top__header form");
 
-form,
-  addEventListener("submit", (e) => {
+form.addEventListener("submit", (e) => {
     e.preventDefault();
     let inputValue = document.querySelector("form #search");
     console.log(inputValue.value);
