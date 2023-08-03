@@ -1,0 +1,23 @@
+let arr_generate = [
+  "batman",
+  "spider man",
+  "warner",
+  "amazon",
+  "pathe",
+  "films",
+  "cartoon",
+  "horror",
+  "muhammad",
+  "china",
+  "spider",
+  "russian",
+  "america",
+  "robe",
+  "studio",
+  "indian",
+  "devin",
+  "track",
+  "como",
+  "yellow",
+];
+let random = Math.floor(Math.random() * arr_generate.length);
